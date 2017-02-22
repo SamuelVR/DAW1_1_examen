@@ -16,7 +16,7 @@ public class Examen {
      */
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    Animal can = new Animal();
+    Animal can = new Animal(); // se crea un objeto tipo Animal con el nombre "can" y parámetros por defecto.
     Animal gato = new Animal("Gato", "Kity", 15);
     can.ModificaNome("Marcelo");
     System.out.println("El perro se llama " +can.DevolveNome());
